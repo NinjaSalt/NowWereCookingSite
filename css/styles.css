@@ -1,7 +1,6 @@
 body{
 	background-color: #F1D4AF;
 }
-
 .superhero{
 	background-color: #774F38;
 }
@@ -36,7 +35,15 @@ body{
 .member > .contact{
 	text-align:right;
 }
-.video-container {     position: relative;
+.gameplay-banner{
+	text-align:center;
+}
+.gameplay-content{
+	text-align: left;
+	min-height: 150px;
+}
+.video-container {     
+	position: relative;
     padding-bottom: 56.25%;     
 	padding-top: 30px; height: 0; overflow: hidden; 
 }   
@@ -127,6 +134,14 @@ body{
 	   width: 150px;
 	   height: 150px;
 	}
+	.gameplay-banner > img{
+	   height: 175px;
+	   width: 175px;
+	}
+	.gameplay-content{
+		padding-left: 15%;
+		padding-right: 15%;
+	}
 }
 	
 @media (max-width: 767px) {
@@ -140,6 +155,10 @@ body{
 	.member > img {
 	   width: 75px;
 	   height: 75px;
+	}
+	.gameplay-banner > img{
+	   height: 100px;
+	   width: 100px;
 	}
 	.navbar .navbar-nav .open .dropdown-menu > li > a {
 		color: #e1e1e1;
