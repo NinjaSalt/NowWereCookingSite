@@ -160,6 +160,10 @@ body{
 	   height: 100px;
 	   width: 100px;
 	}
+	.gameplay-content{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 	.navbar .navbar-nav .open .dropdown-menu > li > a {
 		color: #e1e1e1;
 	}
