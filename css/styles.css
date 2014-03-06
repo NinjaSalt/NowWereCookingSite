@@ -1,17 +1,11 @@
 body{
 	background-color: #F1D4AF;
+	padding-top: 50px;
 }
 .superhero{
-	background-color: #774F38;
+	text-align: center;
+	background-color: #F1D4AF;
 }
-
-.image-header {
-	width:100%;
-	height:272px;
-	background-color: #774F38;
-	background:url(../images/header2.png) no-repeat top center;
-}
-
 .page-header{
 	background-color: #E08E79;
 	text-align: center;
@@ -33,6 +27,15 @@ body{
 .member{
 	text-align: left;
 	min-height: 150px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+.member > h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+}
+.contact > h4> a{
+	font-size: 25px;
 }
 .member > img {
    position:relative; 
@@ -48,6 +51,8 @@ body{
 .gameplay-content{
 	text-align: left;
 	min-height: 150px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
 }
 .video-container {     
 	position: relative;
@@ -119,9 +124,9 @@ body{
 }
 
 @media (min-width: 767px) {
-	.superhero{
-		height: 272px;
-		background:url(../images/header2.png) no-repeat top center;
+	.superhero > img{
+		width:65%;
+		height:65%;
 	}
 	.navbar{
 		width: 70%;
@@ -141,9 +146,9 @@ body{
 	   width: 150px;
 	   height: 150px;
 	}
-	.gameplay-banner > img{
-	   height: 175px;
-	   width: 175px;
+	.gameplay-banner > a  > img{
+	   height: 84px;
+	   width: 150px;
 	}
 	.gameplay-content{
 		padding-left: 15%;
@@ -152,8 +157,9 @@ body{
 }
 	
 @media (max-width: 767px) {
-.superhero{
-		height: 80px;
+	.superhero > img{
+		height: 80%;
+		width: 80%;
 	}
 	.member{
 		padding-left: 15px;
@@ -163,8 +169,8 @@ body{
 	   width: 75px;
 	   height: 75px;
 	}
-	.gameplay-banner > img{
-	   height: 100px;
+	.gameplay-banner > a  > img{
+	   height: 56px;
 	   width: 100px;
 	}
 	.gameplay-content{
