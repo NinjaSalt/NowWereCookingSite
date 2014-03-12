@@ -58,6 +58,8 @@ body{
 .video-container {     
 	position: relative;
     padding-bottom: 56.25%;  
+	margin-left: 15px;
+	margin-right: 15px;
 	padding-top: 30px; height: 0; overflow: hidden; 
 }   
 .video-container iframe, .video-container object, .video-container embed {     
@@ -71,6 +73,23 @@ body{
 	background-color: #ECE5CE;
 	margin-bottom: 10%;
 	padding-bottom:15px;
+}
+div.c-wrapper{
+    width: 80%; /* for example */
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+	width: 30%; /* use this, or not */
+	margin: auto;
+}
+.carousel-caption{
+	color:#ffffff;
+	font-family: 'Lobster Two', cursive;
+}
+.carousel-control{
+	/*background-color: #C5E0DC;*/
 }
 .navbar {
 	background-color: #E08E79;
