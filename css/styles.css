@@ -60,6 +60,11 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 20px;
 }
+.gameplay-content > h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+}
+
 .video-container {     
 	position: relative;
     padding-bottom: 56.25%;  
@@ -74,6 +79,7 @@ body{
 	width: 100%;     
 	height: 100%; 
 }
+
 .content{
 	background-color: #ECE5CE;
 	margin-bottom: 10%;
@@ -183,6 +189,10 @@ div.c-wrapper{
 		padding-left: 15%;
 		padding-right: 15%;
 	}
+	.gameplay-content > img{
+		height: 20%;
+		width: 20%;
+	}
 }
 	
 @media (max-width: 767px) {
@@ -209,6 +219,10 @@ div.c-wrapper{
 	.gameplay-content{
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.gameplay-content > img{
+		height: 75%;
+		width: 75%;
 	}
 	.navbar .navbar-nav .open .dropdown-menu > li > a {
 		color: #e1e1e1;
